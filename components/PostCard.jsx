@@ -33,14 +33,14 @@ const PostCard = ({ post }) => (
         <Image
           unoptimized
           loader={grpahCMSImageLoader}
-          alt={post.author.name}
+          alt={post.name}
           height="30px"
           width="30px"
           className="align-middle rounded-full"
-          src={post.author.photo.url}
+          src={post.photo.url}
         />
         <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">
-          {post.author.name}
+          {post.name}
         </p>
       </div>
       <div className="font-medium text-gray-700">
