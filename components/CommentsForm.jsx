@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { submitComment } from "../services";
 
+//Display a form to leave comments that are stored in graphcms
 const CommentsForm = ({ slug }) => {
   const [error, setError] = useState(false);
   const [localStorage, setLocalStorage] = useState(null);

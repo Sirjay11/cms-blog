@@ -3,6 +3,7 @@ import moment from "moment";
 import parse from "html-react-parser";
 import { getComments } from "../services";
 
+//Display comments where author of post ha sthe choice to publish in graphcms
 const Comments = ({ slug }) => {
   const [comments, setComments] = useState([]);
 

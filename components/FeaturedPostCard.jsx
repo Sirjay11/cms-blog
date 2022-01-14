@@ -3,6 +3,7 @@ import moment from "moment";
 import Image from "next/image";
 import Link from "next/link";
 
+//Display featured post
 const FeaturedPostCard = ({ post }) => (
   <div className="relative h-72">
     <div

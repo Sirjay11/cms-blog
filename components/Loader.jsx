@@ -1,5 +1,6 @@
 import React from "react";
 
+//Display a loader image to get to another post from 
 const Loader = () => (
   <div className="text-center">
     <button

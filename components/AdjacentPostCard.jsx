@@ -2,6 +2,7 @@ import React from "react";
 import moment from "moment";
 import Link from "next/link";
 
+//display card adjacent to featured post below featured post with an arrow button to choose another post
 const AdjacentPostCard = ({ post, position }) => (
   <>
     <div

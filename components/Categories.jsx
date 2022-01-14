@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { getCategories } from "../services";
 
+//display categories of various topics
 const Categories = () => {
   const [categories, setCategories] = useState([]);
 
